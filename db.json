@@ -90,72 +90,131 @@
         }
     ],
     "detail": {
-        "statusdoc": {
-            "button_approve": true,
-            "button_reject": true,
-            "button_revisi": true,
-            "button_approvereason": false,
-            "button_submit_edit": false,
-            "button_submit_save": false,
-            "editable": false,
-            "isPAK": false,
-            "show_rekomendasi": false
-        },
-        "data_support": {
-            "trans_doc_id": 2,
-            "doc_desc": null,
-            "files": [
-                {
-                    "type": "dokumen_pendukung",
-                    "path": "public/dokumen_pendukung/nuAGfURWuL9AHxExNY9qCSvSnEp25X44yoGak87M.pdf"
-                }
-            ],
-            "status_doc": 30,
-            "name_status": "Pengajuan UK Holding"
-        },
-        "data": {
-            "aktivitas": "a",
-            "number": "1",
-            "ebitda": 1,
-            "opex": 1,
-            "costcenter_id": 179,
-            "dir_id_name": "",
-            "description": "a",
-            "activity_background": "a",
-            "dampak_aktivitas": "a",
-            "resiko": "a",
-            "skenario": [
-                {
-                    "skenario_name": "a",
-                    "beban": [
-                        {
-                            "aktivitas_program": "a",
-                            "bulan": "1",
-                            "cost_center": "72K3214910",
-                            "cost_center_name": "ALTERNATIF FUEL T1",
-                            "cost_element": "AKOMODASI LOKAL",
-                            "akun": "67120001",
-                            "nominal": "123"
-                        }
-                    ],
-                    "nominal_bulan": [
-                        123,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0
-                    ]
-                }
-            ],
-            "catatanpak": ""
-        },
-        "data_cost_center": "UNIT PROD PLANNING"
-    }
+		"statusdoc": {
+			"button_approve": true,
+			"button_reject": true,
+			"button_revisi": true,
+			"button_approvereason": false,
+			"button_submit_edit": false,
+			"button_submit_save": false,
+			"button_save_draft": false,
+			"editable": false
+		},
+		"transdoc": {
+			"id": 2,
+			"company_id": 6,
+			"costcenter_id": null,
+			"dir_bidang_id": null,
+			"currency_id": 1,
+			"status_id": 40,
+			"date": "2023-05-31",
+			"tahun": 2023,
+			"number": "2023-05-31-000002",
+			"is_holding": false,
+			"aktifitas": "2",
+			"desc_aktifitas": "2",
+			"latar_belakang": "2",
+			"ebitda": null,
+			"opex": "234",
+			"dampak": "2",
+			"resiko": "2",
+			"doc_desc": null,
+			"is_kaitan_langsung": null,
+			"is_kaitan_tidak_langsung": null,
+			"point_perhatian_pak": null,
+			"dampak_pak": null,
+			"resiko_pak": null,
+			"rekomendasi_pak": null,
+			"user_atasan": null,
+			"user_atasan2": null,
+			"user_dir_bidang": 8188,
+			"user_dir_bidang_v2": null,
+			"user_dirkeu": 8093,
+			"files": "[{\"type\":\"dokumen_pendukung\",\"url\":\"https:\\\/\\\/ebudget.test\\\/storage\\\/dokumen_pendukung\\\/V6tTufIHjkyhtrHuoIs5tn6Cq6I0lQIfUsNaVoIi.pdf\",\"path\":\"storage\\\/dokumen_pendukung\\\/V6tTufIHjkyhtrHuoIs5tn6Cq6I0lQIfUsNaVoIi.pdf\"}]",
+			"input_data": "{\"aktivitas\":\"2\",\"number\":\"1\",\"ebitda\":1,\"opex\":1,\"company_id\":6,\"dir_bidang_id\":176,\"costcenter_id\":null,\"dir_id_name\":\"\",\"description\":\"2\",\"activity_background\":\"2\",\"dampak_aktivitas\":\"2\",\"resiko\":\"2\",\"skenario\":[{\"skenario_name\":\"2\",\"komponen_biaya\":\"HPP - Pemeliharaan\",\"beban\":[{\"aktivitas_program\":\"2\",\"bulan\":\"2\",\"komponen\":\"HPP - Pemeliharaan\",\"akun\":\"\",\"nominal\":\"234\"}],\"nominal_bulan\":[0,234,0,0,0,0,0,0,0,0,0,0]}],\"catatanpak\":\"\"}",
+			"active": true,
+			"created_by": 2,
+			"updated_by": null,
+			"deleted_at": null,
+			"created_at": "2023-05-31 01:20:20",
+			"updated_at": "2023-05-31 01:20:20",
+			"short": "Approve Lead 1 UK Holding",
+			"name_status": "Approve Lead 1 UK Holding",
+			"cost_center_name": null,
+			"company_name": "PT. Semen Gresik",
+			"dir_bidang_name": null,
+			"aktivitas": "2",
+			"description": "2",
+			"activity_background": "2",
+			"dampak_aktivitas": "2",
+			"skenario": {
+				"2": {
+					"skenario_name": "2",
+					"beban": [{
+						"aktifitas_program": "2",
+						"cost_center": null,
+						"cost_element": null,
+						"akun": "",
+						"komponen_biaya": null,
+						"bulan": 2,
+						"nominal": "234.0000"
+					}],
+					"total_bulan": {
+						"1": 0,
+						"2": 234,
+						"3": 0,
+						"4": 0,
+						"5": 0,
+						"6": 0,
+						"7": 0,
+						"8": 0,
+						"9": 0,
+						"10": 0,
+						"11": 0,
+						"12": 0
+					}
+				}
+			}
+		},
+		"data_support": {
+			"trans_doc_id": 2,
+			"doc_desc": null,
+			"files": [{
+				"type": "dokumen_pendukung",
+				"url": "https:\/\/ebudget.test\/storage\/dokumen_pendukung\/V6tTufIHjkyhtrHuoIs5tn6Cq6I0lQIfUsNaVoIi.pdf",
+				"path": "storage\/dokumen_pendukung\/V6tTufIHjkyhtrHuoIs5tn6Cq6I0lQIfUsNaVoIi.pdf"
+			}],
+			"status_doc": 99,
+			"name_status": "Approve Lead 1 UK Holding"
+		},
+		"data": {
+			"aktivitas": "2",
+			"number": "1",
+			"ebitda": 1,
+			"opex": 1,
+			"company_id": 6,
+			"dir_bidang_id": 176,
+			"costcenter_id": null,
+			"dir_id_name": "",
+			"description": "2",
+			"activity_background": "2",
+			"dampak_aktivitas": "2",
+			"resiko": "2",
+			"skenario": [{
+				"skenario_name": "2",
+				"komponen_biaya": "HPP - Pemeliharaan",
+				"beban": [{
+					"aktivitas_program": "2",
+					"bulan": "2",
+					"komponen": "HPP - Pemeliharaan",
+					"akun": "",
+					"nominal": "234"
+				}],
+				"nominal_bulan": [0, 234, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+			}],
+			"catatanpak": ""
+		},
+		"histories": [],
+		"data_cost_center": null
+	}
 }

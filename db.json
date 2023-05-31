@@ -4,11 +4,6 @@
 		"message": "success",
 		"type": "approve"
 	},
-	"approvereason": {
-		"id": 102,
-		"message": "success",
-		"type": "approvereason"
-	},
 	"revisi": {
 		"id": 103,
 		"message": "success",

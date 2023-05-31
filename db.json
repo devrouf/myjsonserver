@@ -1,95 +1,115 @@
 {
-    "list": [
-        {
-            "id": 2,
-            "company_id": 6,
-            "costcenter_id": null,
-            "dir_bidang_id": null,
-            "currency_id": 1,
-            "status_id": 40,
-            "date": "2023-05-31",
-            "tahun": 2023,
-            "number": "2023-05-31-000002",
-            "is_holding": false,
-            "aktifitas": "2",
-            "desc_aktifitas": "2",
-            "latar_belakang": "2",
-            "ebitda": null,
-            "opex": "234",
-            "dampak": "2",
-            "resiko": "2",
-            "doc_desc": null,
-            "is_kaitan_langsung": null,
-            "is_kaitan_tidak_langsung": null,
-            "point_perhatian_pak": null,
-            "dampak_pak": null,
-            "resiko_pak": null,
-            "rekomendasi_pak": null,
-            "user_atasan": null,
-            "user_atasan2": null,
-            "user_dir_bidang": 8188,
-            "user_dir_bidang_v2": null,
-            "user_dirkeu": 8093,
-            "files": "[{\"type\":\"dokumen_pendukung\",\"url\":\"https:\\\/\\\/ebudget.test\\\/storage\\\/dokumen_pendukung\\\/V6tTufIHjkyhtrHuoIs5tn6Cq6I0lQIfUsNaVoIi.pdf\",\"path\":\"storage\\\/dokumen_pendukung\\\/V6tTufIHjkyhtrHuoIs5tn6Cq6I0lQIfUsNaVoIi.pdf\"}]",
-            "input_data": "{\"aktivitas\":\"2\",\"number\":\"1\",\"ebitda\":1,\"opex\":1,\"company_id\":6,\"dir_bidang_id\":176,\"costcenter_id\":null,\"dir_id_name\":\"\",\"description\":\"2\",\"activity_background\":\"2\",\"dampak_aktivitas\":\"2\",\"resiko\":\"2\",\"skenario\":[{\"skenario_name\":\"2\",\"komponen_biaya\":\"HPP - Pemeliharaan\",\"beban\":[{\"aktivitas_program\":\"2\",\"bulan\":\"2\",\"komponen\":\"HPP - Pemeliharaan\",\"akun\":\"\",\"nominal\":\"234\"}],\"nominal_bulan\":[0,234,0,0,0,0,0,0,0,0,0,0]}],\"catatanpak\":\"\"}",
-            "active": true,
-            "created_by": 2,
-            "updated_by": null,
-            "deleted_at": null,
-            "created_at": "2023-05-31 01:20:20",
-            "updated_at": "2023-05-31 01:20:20",
-            "short": "Approve Lead 1 UK Holding",
-            "name_status": "Approve Lead 1 UK Holding",
-            "cost_center_name": null,
-            "company_name": "PT. Semen Gresik",
-            "dir_bidang_name": null
-        },
-        {
-            "id": 1,
-            "company_id": 8,
-            "costcenter_id": null,
-            "dir_bidang_id": null,
-            "currency_id": 1,
-            "status_id": 70,
-            "date": "2023-05-31",
-            "tahun": 2023,
-            "number": "2023-05-31-000001",
-            "is_holding": false,
-            "aktifitas": "1",
-            "desc_aktifitas": "1",
-            "latar_belakang": "1",
-            "ebitda": null,
-            "opex": "111",
-            "dampak": "1",
-            "resiko": "1",
-            "doc_desc": null,
-            "is_kaitan_langsung": null,
-            "is_kaitan_tidak_langsung": null,
-            "point_perhatian_pak": null,
-            "dampak_pak": null,
-            "resiko_pak": null,
-            "rekomendasi_pak": null,
-            "user_atasan": null,
-            "user_atasan2": null,
-            "user_dir_bidang": null,
-            "user_dir_bidang_v2": null,
-            "user_dirkeu": 8093,
-            "files": "[{\"type\":\"dokumen_pendukung\",\"url\":\"https:\\\/\\\/ebudget.test\\\/storage\\\/dokumen_pendukung\\\/aCmviidmxfBqznsSdr59YFafaP6LF1Fu4teRHD5b.pdf\",\"path\":\"storage\\\/dokumen_pendukung\\\/aCmviidmxfBqznsSdr59YFafaP6LF1Fu4teRHD5b.pdf\"}]",
-            "input_data": "{\"aktivitas\":\"1\",\"number\":\"1\",\"ebitda\":1,\"opex\":1,\"company_id\":8,\"dir_bidang_id\":0,\"costcenter_id\":null,\"dir_id_name\":\"\",\"description\":\"1\",\"activity_background\":\"1\",\"dampak_aktivitas\":\"1\",\"resiko\":\"1\",\"skenario\":[{\"skenario_name\":\"1\",\"komponen_biaya\":\"HPP - Pemeliharaan\",\"beban\":[{\"aktivitas_program\":\"1\",\"bulan\":\"1\",\"komponen\":\"HPP - Pemeliharaan\",\"akun\":\"\",\"nominal\":\"111\"}],\"nominal_bulan\":[111,0,0,0,0,0,0,0,0,0,0,0]}],\"catatanpak\":\"\"}",
-            "active": true,
-            "created_by": 2,
-            "updated_by": null,
-            "deleted_at": null,
-            "created_at": "2023-05-31 01:19:05",
-            "updated_at": "2023-05-31 01:19:05",
-            "short": "Edit PAK",
-            "name_status": "Edit PAK",
-            "cost_center_name": null,
-            "company_name": "PT. Semen Indonesia",
-            "dir_bidang_name": null
-        }
-    ],
-    "detail": {
+	"approve": {
+		"id": 101,
+		"message": "success",
+		"type": "approve"
+	},
+	"approvereason": {
+		"id": 102,
+		"message": "success",
+		"type": "approvereason"
+	},
+	"revisi": {
+		"id": 103,
+		"message": "success",
+		"type": "revisi"
+	},
+	"reject": {
+		"id": 104,
+		"message": "success",
+		"type": "reject"
+	},
+	"list": [
+		{
+			"id": 2,
+			"company_id": 6,
+			"costcenter_id": null,
+			"dir_bidang_id": null,
+			"currency_id": 1,
+			"status_id": 40,
+			"date": "2023-05-31",
+			"tahun": 2023,
+			"number": "2023-05-31-000002",
+			"is_holding": false,
+			"aktifitas": "2",
+			"desc_aktifitas": "2",
+			"latar_belakang": "2",
+			"ebitda": null,
+			"opex": "234",
+			"dampak": "2",
+			"resiko": "2",
+			"doc_desc": null,
+			"is_kaitan_langsung": null,
+			"is_kaitan_tidak_langsung": null,
+			"point_perhatian_pak": null,
+			"dampak_pak": null,
+			"resiko_pak": null,
+			"rekomendasi_pak": null,
+			"user_atasan": null,
+			"user_atasan2": null,
+			"user_dir_bidang": 8188,
+			"user_dir_bidang_v2": null,
+			"user_dirkeu": 8093,
+			"files": "[{\"type\":\"dokumen_pendukung\",\"url\":\"https:\\\/\\\/ebudget.test\\\/storage\\\/dokumen_pendukung\\\/V6tTufIHjkyhtrHuoIs5tn6Cq6I0lQIfUsNaVoIi.pdf\",\"path\":\"storage\\\/dokumen_pendukung\\\/V6tTufIHjkyhtrHuoIs5tn6Cq6I0lQIfUsNaVoIi.pdf\"}]",
+			"input_data": "{\"aktivitas\":\"2\",\"number\":\"1\",\"ebitda\":1,\"opex\":1,\"company_id\":6,\"dir_bidang_id\":176,\"costcenter_id\":null,\"dir_id_name\":\"\",\"description\":\"2\",\"activity_background\":\"2\",\"dampak_aktivitas\":\"2\",\"resiko\":\"2\",\"skenario\":[{\"skenario_name\":\"2\",\"komponen_biaya\":\"HPP - Pemeliharaan\",\"beban\":[{\"aktivitas_program\":\"2\",\"bulan\":\"2\",\"komponen\":\"HPP - Pemeliharaan\",\"akun\":\"\",\"nominal\":\"234\"}],\"nominal_bulan\":[0,234,0,0,0,0,0,0,0,0,0,0]}],\"catatanpak\":\"\"}",
+			"active": true,
+			"created_by": 2,
+			"updated_by": null,
+			"deleted_at": null,
+			"created_at": "2023-05-31 01:20:20",
+			"updated_at": "2023-05-31 01:20:20",
+			"short": "Approve Lead 1 UK Holding",
+			"name_status": "Approve Lead 1 UK Holding",
+			"cost_center_name": null,
+			"company_name": "PT. Semen Gresik",
+			"dir_bidang_name": null
+		},
+		{
+			"id": 1,
+			"company_id": 8,
+			"costcenter_id": null,
+			"dir_bidang_id": null,
+			"currency_id": 1,
+			"status_id": 70,
+			"date": "2023-05-31",
+			"tahun": 2023,
+			"number": "2023-05-31-000001",
+			"is_holding": false,
+			"aktifitas": "1",
+			"desc_aktifitas": "1",
+			"latar_belakang": "1",
+			"ebitda": null,
+			"opex": "111",
+			"dampak": "1",
+			"resiko": "1",
+			"doc_desc": null,
+			"is_kaitan_langsung": null,
+			"is_kaitan_tidak_langsung": null,
+			"point_perhatian_pak": null,
+			"dampak_pak": null,
+			"resiko_pak": null,
+			"rekomendasi_pak": null,
+			"user_atasan": null,
+			"user_atasan2": null,
+			"user_dir_bidang": null,
+			"user_dir_bidang_v2": null,
+			"user_dirkeu": 8093,
+			"files": "[{\"type\":\"dokumen_pendukung\",\"url\":\"https:\\\/\\\/ebudget.test\\\/storage\\\/dokumen_pendukung\\\/aCmviidmxfBqznsSdr59YFafaP6LF1Fu4teRHD5b.pdf\",\"path\":\"storage\\\/dokumen_pendukung\\\/aCmviidmxfBqznsSdr59YFafaP6LF1Fu4teRHD5b.pdf\"}]",
+			"input_data": "{\"aktivitas\":\"1\",\"number\":\"1\",\"ebitda\":1,\"opex\":1,\"company_id\":8,\"dir_bidang_id\":0,\"costcenter_id\":null,\"dir_id_name\":\"\",\"description\":\"1\",\"activity_background\":\"1\",\"dampak_aktivitas\":\"1\",\"resiko\":\"1\",\"skenario\":[{\"skenario_name\":\"1\",\"komponen_biaya\":\"HPP - Pemeliharaan\",\"beban\":[{\"aktivitas_program\":\"1\",\"bulan\":\"1\",\"komponen\":\"HPP - Pemeliharaan\",\"akun\":\"\",\"nominal\":\"111\"}],\"nominal_bulan\":[111,0,0,0,0,0,0,0,0,0,0,0]}],\"catatanpak\":\"\"}",
+			"active": true,
+			"created_by": 2,
+			"updated_by": null,
+			"deleted_at": null,
+			"created_at": "2023-05-31 01:19:05",
+			"updated_at": "2023-05-31 01:19:05",
+			"short": "Edit PAK",
+			"name_status": "Edit PAK",
+			"cost_center_name": null,
+			"company_name": "PT. Semen Indonesia",
+			"dir_bidang_name": null
+		}
+	],
+	"detail": {
 		"statusdoc": {
 			"button_approve": true,
 			"button_reject": true,
@@ -150,15 +170,17 @@
 			"skenario": {
 				"2": {
 					"skenario_name": "2",
-					"beban": [{
-						"aktifitas_program": "2",
-						"cost_center": null,
-						"cost_element": null,
-						"akun": "",
-						"komponen_biaya": null,
-						"bulan": 2,
-						"nominal": "234.0000"
-					}],
+					"beban": [
+						{
+							"aktifitas_program": "2",
+							"cost_center": null,
+							"cost_element": null,
+							"akun": "",
+							"komponen_biaya": null,
+							"bulan": 2,
+							"nominal": "234.0000"
+						}
+					],
 					"total_bulan": {
 						"1": 0,
 						"2": 234,
@@ -179,11 +201,13 @@
 		"data_support": {
 			"trans_doc_id": 2,
 			"doc_desc": null,
-			"files": [{
-				"type": "dokumen_pendukung",
-				"url": "https:\/\/ebudget.test\/storage\/dokumen_pendukung\/V6tTufIHjkyhtrHuoIs5tn6Cq6I0lQIfUsNaVoIi.pdf",
-				"path": "storage\/dokumen_pendukung\/V6tTufIHjkyhtrHuoIs5tn6Cq6I0lQIfUsNaVoIi.pdf"
-			}],
+			"files": [
+				{
+					"type": "dokumen_pendukung",
+					"url": "https:\/\/ebudget.test\/storage\/dokumen_pendukung\/V6tTufIHjkyhtrHuoIs5tn6Cq6I0lQIfUsNaVoIi.pdf",
+					"path": "storage\/dokumen_pendukung\/V6tTufIHjkyhtrHuoIs5tn6Cq6I0lQIfUsNaVoIi.pdf"
+				}
+			],
 			"status_doc": 99,
 			"name_status": "Approve Lead 1 UK Holding"
 		},
@@ -200,18 +224,35 @@
 			"activity_background": "2",
 			"dampak_aktivitas": "2",
 			"resiko": "2",
-			"skenario": [{
-				"skenario_name": "2",
-				"komponen_biaya": "HPP - Pemeliharaan",
-				"beban": [{
-					"aktivitas_program": "2",
-					"bulan": "2",
-					"komponen": "HPP - Pemeliharaan",
-					"akun": "",
-					"nominal": "234"
-				}],
-				"nominal_bulan": [0, 234, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-			}],
+			"skenario": [
+				{
+					"skenario_name": "2",
+					"komponen_biaya": "HPP - Pemeliharaan",
+					"beban": [
+						{
+							"aktivitas_program": "2",
+							"bulan": "2",
+							"komponen": "HPP - Pemeliharaan",
+							"akun": "",
+							"nominal": "234"
+						}
+					],
+					"nominal_bulan": [
+						0,
+						234,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0,
+						0
+					]
+				}
+			],
 			"catatanpak": ""
 		},
 		"histories": [],
